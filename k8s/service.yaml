@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hwp
+  namespace: hwp
+  labels:
+    run: hwp
+spec:
+  type: NodePort
+  ports:
+  - port: 8001
+    targetPort: 8000
+    protocol: TCP
+  selector:
+    app.kubernetes.io/name: hwp

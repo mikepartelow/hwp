@@ -1,0 +1,6 @@
+encryptionsalt: v1:iVzLMQxIQ5M=:v1:uoTVyxr1zBJc01/4:yxRhp3c0/eeQluk2OTz03VLdV0JARg==
+config:
+  hwp:name: hwp
+  hwp:image: localhost:32000/hwp:1.0.2
+  hwp:container_port: 8000
+  kubernetes:context: microk8s

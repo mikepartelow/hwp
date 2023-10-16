@@ -1,0 +1,6 @@
+name: hwp
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: hello world, python
